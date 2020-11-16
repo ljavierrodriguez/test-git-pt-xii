@@ -12,3 +12,8 @@
 
     $ git commit -m "Este es una prueba"
     $ git commit
+
+### Comando para regresar un cambio despues de un commit
+
+    $ git checkout <file>
+    $ git checkout <branch>
