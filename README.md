@@ -13,10 +13,10 @@
     $ git commit -m "Este es una prueba"
     $ git commit
 
-### Comando para regresar un cambio despues de un commit
+### Comando para regresar cambio despues de modificar el archivo
 
     $ git checkout <file>
-    $ git checkout <branch>
+    $ git checkout hash
 
 
 ### Comando para crear nueva rama y activarla
@@ -31,3 +31,8 @@
 ### Unir ramas con merge
 
     $ git merge <branch_origen> <branch_destino>
+
+
+### Comando para agregar un repositorio remoto
+
+    $ git remote add <origin> <url>
