@@ -17,3 +17,17 @@
 
     $ git checkout <file>
     $ git checkout <branch>
+
+
+### Comando para crear nueva rama y activarla
+- crear la rama
+    $ git branch <branch>
+- activa la rama
+    $ git checkout <branch> 
+- crear y activar la rama
+    $ git checkout -b <branch>
+
+
+### Unir ramas con merge
+
+    $ git merge <branch_origen> <branch_destino>
